@@ -29,7 +29,7 @@ public class Livelock {
 
                 if (textBook.owner != this) {
                     try {
-                        Thread.sleep(1);
+                        Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         System.out.printf("%s: I was interrupted, stopping preparation%n", name);
                         Thread.currentThread().interrupt();
