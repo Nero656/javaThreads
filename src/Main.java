@@ -18,7 +18,7 @@ public class Main {
             if (input.matches("\\d+")) {
                 option = Integer.parseInt(input);
                 if (option >= 1 && option <= 3) {
-                    break; // правильный ввод → выходим из цикла
+                    break; 
                 } else {
                     System.out.println("Ошибка: введите число от 1 до 3.");
                 }
